@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "date": "2026-04-09T13:55:58.536406+00:00",
+      "statuses": {
+        "MODIS (LP DAAC)": "Unavailable",
+        "ERA5 (CDS)": "Available",
+        "MERRA-2 (GES DISC)": "Available",
+        "SMAP (NSIDC)": "Unavailable",
+        "GPM (GES DISC)": "Available"
+      }
+    }
+  ],
+  "latest": {
+    "MODIS (LP DAAC)": "Unavailable",
+    "ERA5 (CDS)": "Available",
+    "MERRA-2 (GES DISC)": "Available",
+    "SMAP (NSIDC)": "Unavailable",
+    "GPM (GES DISC)": "Available"
+  }
+}
