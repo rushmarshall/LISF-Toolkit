@@ -1,0 +1,103 @@
+[build-system]
+requires = ["setuptools>=68.0", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lisf-toolkit"
+version = "0.1.0"
+description = "NASA Land Information System Framework data toolkit for satellite data acquisition, processing, and analysis"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Sebastian R.O. Marshall", email = "sm4dy@virginia.edu"},
+]
+keywords = [
+    "NASA", "LISF", "land-surface", "hydrology", "remote-sensing",
+    "satellite", "MODIS", "ERA5", "geospatial", "earth-science",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Scientific/Engineering :: Hydrology",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+
+dependencies = [
+    "numpy>=1.23.0",
+    "pandas>=1.5.0",
+    "xarray>=2023.1.0",
+    "netCDF4>=1.6.0",
+    "rasterio>=1.3.0",
+    "rioxarray>=0.14.0",
+    "geopandas>=0.13.0",
+    "shapely>=2.0.0",
+    "pyproj>=3.5.0",
+    "scipy>=1.10.0",
+    "earthaccess>=0.8.0",
+    "requests>=2.28.0",
+    "tqdm>=4.64.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+cds = [
+    "cdsapi>=0.6.0",
+]
+viz = [
+    "matplotlib>=3.7.0",
+    "cartopy>=0.22.0",
+    "folium>=0.15.0",
+    "plotly>=5.15.0",
+]
+ml = [
+    "scikit-learn>=1.3.0",
+    "xgboost>=2.0.0",
+]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.7.0",
+    "ruff>=0.1.0",
+    "mypy>=1.5.0",
+]
+all = [
+    "lisf-toolkit[cds,viz,ml,dev]",
+]
+
+[project.urls]
+Homepage = "https://github.com/rushmarshall/LISF-Toolkit"
+Repository = "https://github.com/rushmarshall/LISF-Toolkit"
+Issues = "https://github.com/rushmarshall/LISF-Toolkit/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.black]
+line-length = 99
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 99
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
