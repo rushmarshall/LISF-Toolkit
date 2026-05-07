@@ -279,6 +279,16 @@
         "SMAP (NSIDC)": "Unavailable",
         "GPM (GES DISC)": "Unavailable"
       }
+    },
+    {
+      "date": "2026-05-07T08:04:59.984961+00:00",
+      "statuses": {
+        "MODIS (LP DAAC)": "Unavailable",
+        "ERA5 (CDS)": "Available",
+        "MERRA-2 (GES DISC)": "Available",
+        "SMAP (NSIDC)": "Unavailable",
+        "GPM (GES DISC)": "Available"
+      }
     }
   ],
   "latest": {
@@ -286,6 +296,6 @@
     "ERA5 (CDS)": "Available",
     "MERRA-2 (GES DISC)": "Available",
     "SMAP (NSIDC)": "Unavailable",
-    "GPM (GES DISC)": "Unavailable"
+    "GPM (GES DISC)": "Available"
   }
 }
