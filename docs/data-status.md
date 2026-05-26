@@ -1,15 +1,15 @@
 # NASA Data Product Availability Status
 
-*Last checked: 2026-05-25 08:41 UTC*
+*Last checked: 2026-05-26 08:24 UTC*
 
 
 | Product | Status | Last Checked |
 | ------- | ------ | ------------ |
-| MODIS (LP DAAC) | ❌ Unavailable | 2026-05-25 08:41 UTC |
-| ERA5 (CDS) | ✅ Available | 2026-05-25 08:41 UTC |
-| MERRA-2 (GES DISC) | ✅ Available | 2026-05-25 08:41 UTC |
-| SMAP (NSIDC) | ❌ Unavailable | 2026-05-25 08:41 UTC |
-| GPM (GES DISC) | ✅ Available | 2026-05-25 08:41 UTC |
+| MODIS (LP DAAC) | ❌ Unavailable | 2026-05-26 08:24 UTC |
+| ERA5 (CDS) | ✅ Available | 2026-05-26 08:24 UTC |
+| MERRA-2 (GES DISC) | ❌ Unavailable | 2026-05-26 08:24 UTC |
+| SMAP (NSIDC) | ❌ Unavailable | 2026-05-26 08:24 UTC |
+| GPM (GES DISC) | ❌ Unavailable | 2026-05-26 08:24 UTC |
 
 ## Availability Timeline
 
