@@ -1,16 +1,6 @@
 {
   "records": [
     {
-      "date": "2026-05-16T07:53:03.127658+00:00",
-      "statuses": {
-        "MODIS (LP DAAC)": "Unavailable",
-        "ERA5 (CDS)": "Available",
-        "MERRA-2 (GES DISC)": "Available",
-        "SMAP (NSIDC)": "Unavailable",
-        "GPM (GES DISC)": "Available"
-      }
-    },
-    {
       "date": "2026-05-17T08:00:11.771394+00:00",
       "statuses": {
         "MODIS (LP DAAC)": "Unavailable",
@@ -899,6 +889,16 @@
         "SMAP (NSIDC)": "Unavailable",
         "GPM (GES DISC)": "Unavailable"
       }
+    },
+    {
+      "date": "2026-08-14T07:46:10.099752+00:00",
+      "statuses": {
+        "MODIS (LP DAAC)": "Unavailable",
+        "ERA5 (CDS)": "Available",
+        "MERRA-2 (GES DISC)": "Unavailable",
+        "SMAP (NSIDC)": "Unavailable",
+        "GPM (GES DISC)": "Available"
+      }
     }
   ],
   "latest": {
@@ -906,6 +906,6 @@
     "ERA5 (CDS)": "Available",
     "MERRA-2 (GES DISC)": "Unavailable",
     "SMAP (NSIDC)": "Unavailable",
-    "GPM (GES DISC)": "Unavailable"
+    "GPM (GES DISC)": "Available"
   }
 }
