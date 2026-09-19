@@ -74,9 +74,9 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/rushmarshall/LISF-Toolkit"
-Repository = "https://github.com/rushmarshall/LISF-Toolkit"
-Issues = "https://github.com/rushmarshall/LISF-Toolkit/issues"
+Homepage = "https://github.com/sromarshall/LISF-Toolkit"
+Repository = "https://github.com/sromarshall/LISF-Toolkit"
+Issues = "https://github.com/sromarshall/LISF-Toolkit/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

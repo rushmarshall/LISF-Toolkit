@@ -5,9 +5,9 @@
 <p align="center">
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.10%2B-333333?style=flat-square&logo=python&logoColor=white" alt="Python" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-333333?style=flat-square" alt="License" /></a>
-  <a href="https://github.com/rushmarshall/LISF-Toolkit/actions"><img src="https://img.shields.io/badge/CI-passing-333333?style=flat-square&logo=githubactions&logoColor=white" alt="CI" /></a>
+  <a href="https://github.com/sromarshall/LISF-Toolkit/actions"><img src="https://img.shields.io/badge/CI-passing-333333?style=flat-square&logo=githubactions&logoColor=white" alt="CI" /></a>
   <a href="https://www.nasa.gov/"><img src="https://img.shields.io/badge/NASA-LISF-333333?style=flat-square&logo=nasa&logoColor=white" alt="NASA" /></a>
-  <a href="https://github.com/rushmarshall/LISF-Toolkit"><img src="https://img.shields.io/badge/Status-Active-333333?style=flat-square" alt="Status" /></a>
+  <a href="https://github.com/sromarshall/LISF-Toolkit"><img src="https://img.shields.io/badge/Status-Active-333333?style=flat-square" alt="Status" /></a>
 </p>
 
 <br/>
@@ -25,7 +25,7 @@ The toolkit provides end-to-end functionality: authenticated satellite data down
 ### From source
 
 ```bash
-git clone https://github.com/rushmarshall/LISF-Toolkit.git
+git clone https://github.com/sromarshall/LISF-Toolkit.git
 cd LISF-Toolkit
 pip install -e ".[dev]"
 ```
@@ -225,7 +225,7 @@ If you use LISF Toolkit in published research, please cite:
   author       = {Marshall, Sebastian R.O.},
   title        = {{LISF Toolkit: NASA Land Information System Framework Data Toolkit}},
   year         = {2025},
-  url          = {https://github.com/rushmarshall/LISF-Toolkit},
+  url          = {https://github.com/sromarshall/LISF-Toolkit},
   note         = {Python library for satellite data acquisition, processing, and analysis}
 }
 ```
